@@ -13,10 +13,10 @@ let failed = 0;
 
 function assert(label, condition, detail = '') {
   if (condition) {
-    console.log(`  ✅  ${label}`);
+    console.log(` CORRECTO ${label}`);
     passed++;
   } else {
-    console.error(`  ❌  ${label}${detail ? ' — ' + detail : ''}`);
+    console.error(` ERROR ${label}${detail ? ' — ' + detail : ''}`);
     failed++;
   }
 }
@@ -39,7 +39,7 @@ async function get() {
 
 // ──────────────────────────────────────────────────────────────────────────────
 async function runTests() {
-  console.log('\n🧪  Paquetes API — Suite de pruebas\n');
+  console.log('\nPaquetes API — Suite de pruebas\n');
 
   // ── T1: POST válido → 201 ──────────────────────────────────────────────────
   console.log('T1  POST válido → 201 Created');

@@ -1,0 +1,45 @@
+### GET - Listar paquetes
+GET http://localhost:3000/api/paquetes
+
+### POST - Crear paquete válido
+POST http://localhost:3000/api/paquetes
+Content-Type: application/json
+
+{
+  "codigo": "EC-0010",
+  "destinatario": "Samuel Rodriguez",
+  "fechaIngreso": "2026-06-09"
+}
+
+### POST - Duplicado (409 Conflict)
+POST http://localhost:3000/api/paquetes
+Content-Type: application/json
+
+{
+  "codigo": "EC-0010",
+  "destinatario": "Lorena Plaza",
+  "fechaIngreso": "2026-06-09"
+}
+
+###
+
+### POST - Fecha inválida (400 Bad Request) 
+POST http://localhost:3000/api/paquetes
+Content-Type: application/json
+
+{
+  "codigo": "EC-0002",
+  "destinatario": "Luis",
+  "fechaIngreso": "2026-30-06"
+}
+
+###
+
+### POST - Sin destinatario (400 Bad Request)
+POST http://localhost:3000/api/paquetes
+Content-Type: application/json
+
+{
+  "codigo": "EC-0011",
+  "fechaIngreso": "2026-06-09"
+}

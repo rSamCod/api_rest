@@ -1,0 +1,6 @@
+{"$$indexCreated":{"fieldName":"codigo","unique":true,"sparse":false}}
+{"codigo":"EC-0001","destinatario":"María Pérez","fechaIngreso":"2025-11-01","createdAt":"2026-06-09T14:13:01.667Z","_id":"eWXeMGfHOQfogXHc"}
+{"codigo":"EC-0002","destinatario":"Carlos Orozco","fechaIngreso":"2025-11-02","createdAt":"2026-06-09T14:17:22.296Z","_id":"FTkjxzPNpKuoMgZ4"}
+{"codigo":"EC-XYZ-0001","destinatario":"María Pérez","fechaIngreso":"2025-11-01","createdAt":"2026-06-09T14:39:44.462Z","_id":"cFryKGdh6nAR0FyY"}
+{"codigo":"EC-XYZ-0002","destinatario":"Carlos Ruiz","fechaIngreso":"2025-12-15","createdAt":"2026-06-09T14:39:44.491Z","_id":"QHbhTMqQeldkSILN"}
+{"codigo":"EC-0010","destinatario":"Samuel Rodriguez","fechaIngreso":"2026-06-09","createdAt":"2026-06-09T14:52:16.430Z","_id":"zZgndHA3qbGRlvYI"}
